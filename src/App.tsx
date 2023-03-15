@@ -1,9 +1,15 @@
-import logo from './logo.svg';
+/** @jsxImportSource @emotion/react */
+import { css } from '@emotion/react'
+import BattleUI from './interface/Battle';
 
 function App() {
   return (
-    <div>
-      Hello world!
+    <div css={
+      css`
+        display: flex;
+      `
+    }>
+      <BattleUI />
     </div>
   );
 }
